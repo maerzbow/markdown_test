@@ -27,10 +27,7 @@ Jeder Kommentarfeld auf {{site.data.variables. proKanal. product_name}} enthält
 - "[Markdown-Tutorial] (http://markdowntutorial.com/)"
 
 
-var s = "JavaScript syntax highlighting";
-    alert(s);
-    
-    return s;
+     var s = "JavaScript syntax highlighting";     alert(s);         return s;
 
 Ein Tisch
 =======
@@ -55,8 +52,8 @@ Markdown | Weniger | Ziemlich
 ```
 
 <dl>
-  <dt>Definition list</dt>
-  <dd>Ist etwas, das Menschen manchmal verwenden. </dd>
+  <dt>Definition list</dt>
+  <dd>Ist etwas, das Menschen manchmal verwenden. </dd>
 
   <dt>Markdown in HTML </dt>
   <dd>* nicht * Arbeit ** sehr ** gut. Verwenden Sie HTML <em>Tags </em>. </dd>
