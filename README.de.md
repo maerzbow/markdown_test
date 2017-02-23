@@ -27,7 +27,10 @@ Jeder Kommentarfeld auf {{site.data.variables. proKanal. product_name}} enthält
 - "[Markdown-Tutorial] (http://markdowntutorial.com/)"
 
 
-     var s = "JavaScript syntax highlighting";     alert(s);         return s;
+    var s = "JavaScript syntax highlighting";
+    alert(s);
+    
+    return s;
 
 Ein Tisch
 =======
@@ -37,7 +40,8 @@ Markdown | Weniger | Ziemlich
 * Noch * | `Renders` | **schön**
 1 | 2 | 3
 
-```java
+
+`` `Java
             
             Optional <BlockMarker>newBlock = findStartingBlockMarker (Linie);
 
@@ -49,14 +53,14 @@ Markdown | Weniger | Ziemlich
 
               seg.addLine (Linie, lineEmpty);
               actualBlock = newBlock.get ();
-```
+`` `
 
 <dl>
-  <dt>Definition list</dt>
-  <dd>Ist etwas, das Menschen manchmal verwenden. </dd>
+  <dt>Definition list</dt>
+  <dd>Ist etwas, das Menschen manchmal verwenden. </dd>
 
-  <dt>Markdown in HTML </dt>
-  <dd>* nicht * Arbeit ** sehr ** gut. Verwenden Sie HTML <em>Tags </em>. </dd>
+  <dt>Markdown in HTML </dt>
+  <dd>* nicht * Arbeit ** sehr ** gut. Verwenden Sie HTML <em>Tags </em>. </dd>
 </dl>
 
 >Blockzitate sind sehr praktisch in emailAntworttext zu emulieren.
