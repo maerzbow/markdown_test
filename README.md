@@ -6,7 +6,7 @@ intro: {{ site.data.guides.dotcom-writing-on-github.shortdesc.about-writing-and-
 
 [Markdown](http://daringfireball.net/projects/markdown/) is an easy-to-read, easy-to-write syntax for formatting plain text.
 
-We've added some custom functionality to create {{ site.data.variables.product.product_name }} Flavored Markdown, used to format prose and code across our site.
+We have added some custom functionality to create {{ site.data.variables.product.product_name }} Flavored Markdown, used to format prose and code across our site.
 
 You can also interact with other users in pull requests, issues, and wikis with features like [@mentions](/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams), [issue and PR references](/articles/basic-writing-and-formatting-syntax/#referencing-issues-and-pull-requests), and [emoji](/articles/basic-writing-and-formatting-syntax/#using-emoji).
 
@@ -43,6 +43,7 @@ Markdown | Less | Pretty
 ```java
             
             Optional<BlockMarker> newBlock = findStartingBlockMarker(line);
+
 
             if (newBlock.isPresent()) {
               if (!lastLineWasEmpty) {
