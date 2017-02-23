@@ -40,23 +40,23 @@ Markdown | Weniger | Ziemlich
 * Noch * | `Renders` | **schön**
 1 | 2 | 3
 
-`` `Java
-            
-            Optional <BlockMarker>newBlock = findStartingBlockMarker (Linie);
+```java
+            
+            Optional <BlockMarker>newBlock = findStartingBlockMarker (Linie);
 
-            if (newBlock.isPresent ()) {
-              if (! lastLineWasEmpty) {
-                segments.add (seg);
-                seg = new Segment ();
-              }
+            if (newBlock.isPresent ()) {
+              if (! lastLineWasEmpty) {
+                segments.add (seg);
+                seg = new Segment ();
+              }
 
-              seg.addLine (Linie, lineEmpty);
-              actualBlock = newBlock.get ();
-`` `
+              seg.addLine (Linie, lineEmpty);
+              actualBlock = newBlock.get ();
+```
 
 <dl>
-  <dt>Definition list</dt>
-  <dd>Ist etwas, das Menschen manchmal verwenden. </dd>
+  <dt>Definition list</dt>
+  <dd>Ist etwas, das Menschen manchmal verwenden. </dd>
 
   <dt>Markdown in HTML </dt>
   <dd>* nicht * Arbeit ** sehr ** gut. Verwenden Sie HTML <em>Tags </em>. </dd>
