@@ -27,10 +27,10 @@ Every comment field on {{ site.data.variables.product.product_name }} contains a
 - "[Markdown Tutorial](http://markdowntutorial.com/)"
 
 
-    var s = "JavaScript syntax highlighting";
-    alert(s);
+     var s = "JavaScript syntax highlighting";
+     alert(s);
     
-    return s;
+     return s;
 
 A Table
 =======
