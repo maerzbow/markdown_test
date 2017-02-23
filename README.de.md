@@ -15,6 +15,8 @@ Sie können auch mit anderen Benutzern in Pull-Anforderungen, Probleme und Wikis
 ### Textformatierungssymbolleiste
 Jeder Kommentarfeld auf {{site.data.variables. proKanal. product_name}} enthält eine Textformatierungssymbolleiste, so dass Sie Ihren Text zu formatieren, ohne Markdown-Syntax lernen. Neben Markdown Formatierung wie fett und kursiv und Erstellen von Headern, Links und lists, enthält die Symbolleiste {{site.data.variables proKanal product_name}..} - Spezifische Funktionen wie @ erwähnt, Aufgabe lists, und Links zu Fragen und Anfragen zu ziehen.
 
+Wir werden einen neuen Block hinzufügen und werden sehen, wie dies die Reihenfolge der Segmente beeinflusst.
+
 ![Markdown toolbar](/assets/images/help/writing/markdown-toolbar.gif)
 
 {% endif %}
