@@ -7,4 +7,4 @@ Diese Seite beschreibt ein Problem mit Markdown. Wir haben uns folgende Punkte Ã
 1. Wie soll man segmentieren
 2. Wie geht man mit weiterne Uploads um
 
-Wird nicht ganz einfach!
+Wird nicht ganz einfach.
